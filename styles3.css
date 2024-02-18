@@ -34,9 +34,6 @@ input{
     margin-bottom: 20px;
 }
 
-.input:focus{
-    border: 1px solid #ccc;
-}
 
 /* .voice-search-button {
     position: absolute; 
