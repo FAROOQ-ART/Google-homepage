@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.google-logo {
+    position: absolute; 
+    top: 25%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 230px; 
+    height: 100px;
+    background-image: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%; 
+}
+
+
+input{
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.input:focus{
+    border: 1px solid #ccc;
+}
+
+/* .voice-search-button {
+    position: absolute; 
+    top: 45%; 
+    right: 30%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+} */
+
+.voice-search-button i {
+    font-size: 20px; 
+}
+
+
+.image-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-div a{
+    width: 100px;
+    height: 100%;
+    text-decoration: none;
+
+}
+
+.flex-elements{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-elements img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flex-elements p{
+    font-size: 10px;
+}
