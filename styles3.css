@@ -27,28 +27,51 @@ body{
 
 input{
     width: 40%;
-    height: 30px;
+    height: 38px;
     border-radius: 20px;
     border: 1px solid #ccc;
     padding: 0 20px;
+    padding-left: 50px;
     margin-bottom: 20px;
 }
 
 
-/* .voice-search-button {
+ .input-icons:nth-of-type(1) {
     position: absolute; 
-    top: 45%; 
+    top: 294px; 
     right: 30%; 
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
+    color: black;
     border: none;
     background: transparent;
     cursor: pointer;
-} */
+} 
 
-.voice-search-button i {
-    font-size: 20px; 
+.input-icons:nth-of-type(2){
+    position: absolute; 
+    top: 294px; 
+    right: 28%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: black;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+} 
+
+.input-icons:nth-of-type(3){
+    position: absolute; 
+    top: 294px; 
+    left: 28%; 
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: none;
+    color: black;
+    border: none;
 }
 
 
